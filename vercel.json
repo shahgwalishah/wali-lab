@@ -10,12 +10,7 @@
     },
     "routes": [
         {
-            "src": "/build/(.*)",
-            "dest": "/build/$1"
-        },
-        {
-            "src": "/favicon.ico",
-            "dest": "/favicon.ico"
+            "handle": "filesystem"
         },
         {
             "src": "/(.*)",
